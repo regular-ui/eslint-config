@@ -1,0 +1,27 @@
+{
+  "name": "eslint-config-rgui",
+  "description": "Sharable eslint config for Regular UI",
+  "version": "0.0.1",
+  "author": "Rainfore <rainforest92@126.com>",
+  "repository": "regular-ui/eslint-config",
+  "bugs": {
+    "url": "https://github.com/regular-ui/eslint-config/issues"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "eslint index.js"
+  },
+  "license": "MIT",
+  "keywords": [
+    "eslint",
+    "eslint-config",
+    "eslintconfig",
+    "rgui"
+  ],
+  "tags": [
+    "eslint",
+    "eslint-config",
+    "eslintconfig"
+    "rgui"
+  ]
+}
