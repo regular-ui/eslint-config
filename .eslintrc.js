@@ -54,7 +54,7 @@ module.exports = {
         'curly': [2, 'multi-or-nest'],
         'default-case': [2],
         'dot-location': [2, 'property'],
-        'dot-notation': [1, {allowKeywords: false}],
+        'dot-notation': [1, { allowKeywords: true }],
         'eqeqeq': [2, 'always'],
         // @uncertain: 'guard-for-in',
         'no-alert': [1],
@@ -126,7 +126,7 @@ module.exports = {
         'no-undef-init': [2],
         // @uncertain: 'no-undefined',
         'no-unused-vars': [1, { args: 'none' }],
-        'no-use-before-define': [2],
+        'no-use-before-define': [1, { functions: false }],
 
         // Node.js and CommonJS
         // @TODO: 'callback-return',
@@ -155,7 +155,7 @@ module.exports = {
         // @useless: 'id-blacklist',
         // @useless: 'id-length',
         // @useless: 'id-match',
-        'indent': [2, 4],
+        'indent': [2, 4, { SwitchCase: 1 }],
         // @useless: 'jsx-quotes',
         'key-spacing': [2],
         'keyword-spacing': [2],
