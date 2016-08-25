@@ -1,7 +1,9 @@
-const config = {
-    env: {},
-    envs: ['browser', 'commonjs', 'es6'],
-    globals: [],
+module.exports = {
+    env: {
+        browser: true,
+        commonjs: true,
+        es6: true,
+    },
     parserOptions: {
         ecmaVersion: 6,
         sourceType: 'module',
@@ -244,8 +246,4 @@ const config = {
         'template-curly-spacing': [2, 'never'],
         // @TODO: 'yield-star-spacing',
     },
-}
-
-config.envs.forEach((env) => config.env[env] = true);
-
-module.exports = config;
+};
