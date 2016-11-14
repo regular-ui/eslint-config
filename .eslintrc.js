@@ -142,12 +142,12 @@ module.exports = {
 
         // Stylistic Issues
         'array-bracket-spacing': [2, 'never'], // @TODO
-        'block-spacing': [2, 'never'],
+        'block-spacing': [2, 'always'],
         'brace-style': [2, '1tbs', { allowSingleLine: true }],
         'camelcase': [2],
         'comma-spacing': [2],
         // @TODO: 'comma-style',
-        'computed-property-spacing': [1],
+        'computed-property-spacing': [2],
         'consistent-this': [1, 'self'],
         'eol-last': [2],
         // @useless: 'func-names',
