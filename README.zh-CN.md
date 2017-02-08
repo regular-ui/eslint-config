@@ -1,4 +1,4 @@
-# Regular UI 代码规范
+# Regular UI JavaScript 代码规范
 ## 目录
 - [空白](#空白)
 - [块](#块)
@@ -7,12 +7,12 @@
 - [对象和属性](#对象和属性)
 - [运算符](#运算符)
 - [条件](#条件)
-- [函数和箭头函数](#函数和箭头函数)
-- [类和构造器](#类和构造器)
 - [变量和作用域](#变量和作用域)
 - [命名](#命名)
 - [类型](#类型)
 - [数字](#数字)
+- [函数和箭头函数](#函数和箭头函数)
+- [类和构造器](#类和构造器)
 - [正则表达式](#正则表达式)
 - [低级错误](#低级错误)
 - [其他项](#其他项)
@@ -161,7 +161,7 @@ for (let i = 0;i < 10;i++)
 // ✓ good
 const arr = [1, 2];
 const obj = { id: 1, name: 'Alice' };
-foo(a,b,c);
+foo(a, b, c);
 for (let i = 0; i < 10; i++)
 ```
 
@@ -1985,6 +1985,11 @@ debugger;
 console.warn('This method is deprecated.');
 console.error('Circular dependencies!')
 ```
+
+## 参考
+
+- [Airbnb JavaScript Style Guild](http://airbnb.io/javascript/)
+- [JavaScript Standard Style](https://github.com/feross/standard/blob/master/RULES.md)
 
 <!-- ## TODO
     #### 3.2

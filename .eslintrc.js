@@ -1,15 +1,13 @@
 module.exports = {
-    env: {
-        browser: true,
-        commonjs: true,
-        es6: true,
-    },
     parserOptions: {
         ecmaVersion: 2017,
         sourceType: 'module',
         ecmaFeatures: {
             experimentalObjectRestSpread: true,
         },
+    },
+    env: {
+        es6: true,
     },
     rules: {
         // Possible Errors
